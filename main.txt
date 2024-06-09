@@ -1,0 +1,2 @@
+1. create react app and install tailwind =  0 - 21:00
+2. create pages and routes  = 21:00 - 
