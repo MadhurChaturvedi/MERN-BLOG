@@ -1,2 +1,3 @@
-1. create react app and install tailwind =  0 - 21:00
-2. create pages and routes  = 21:00 - 
+1. create react app and install tailwind =  0 - 21:00;
+2. create pages and routes  = 21:00 - 28:35;
+3. create Header components = 28:42 -  52:47;
