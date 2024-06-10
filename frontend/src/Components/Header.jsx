@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Navbar, Label, TextInput } from "flowbite-react";
 import { CiSearch } from "react-icons/ci";
-import { Link ,useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { IoMoonOutline } from "react-icons/io5";
 export default function Header() {
   const path = useLocation().pathname;
@@ -34,7 +34,11 @@ export default function Header() {
         <CiSearch />
       </Button>
       <div className=" flex gap-2 md:order-2">
-        <Button className=" items-center hidden lg:inline" outline pill>
+        <Button
+          className="w-12 h-10 hidden sm:inline"
+          color="gray"
+          pill
+        >
           <IoMoonOutline />
         </Button>
         <Link to="/signin">
@@ -45,13 +49,13 @@ export default function Header() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link  active={path === '/'} as={'div'} >
+        <Navbar.Link active={path === "/"} as={"div"}>
           <Link to="/">Home</Link>
         </Navbar.Link>
-        <Navbar.Link active={path === '/about'} as={'div'}>
+        <Navbar.Link active={path === "/about"} as={"div"}>
           <Link to="/about">About</Link>
         </Navbar.Link>
-        <Navbar.Link active={path === '/projects'} as={'div'}>
+        <Navbar.Link active={path === "/projects"} as={"div"}>
           <Link to="/projects">projects</Link>
         </Navbar.Link>
       </Navbar.Collapse>
