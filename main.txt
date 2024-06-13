@@ -2,4 +2,5 @@
 2. create pages and routes  = 21:00 - 28:35;
 3. create Header components = 28:42 -  53:17;
 4. create and run the server = 53:17 - 59:44;
+5. create connection to the database =  1:00:55 - 1:11:37;
 
