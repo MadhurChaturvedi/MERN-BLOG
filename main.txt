@@ -4,4 +4,4 @@
 4. create and run the server = 53:17 - 59:44;
 5. create connection to the database =  1:00:55 - 1:11:37;
 6. create user model = 1:12:39 - 1:18:29;
-
+7: create test API routes = 1:18:32 - 1:25:30;

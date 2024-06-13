@@ -1,14 +1,13 @@
 import express from 'express';
-// dotenv file in import
-
 import { connectDB } from './DB/DB.js'
-
 import dotenv from "dotenv";
+import userRoute from './routes/user.route.js'
 
 dotenv.config()
-
 const app = express();
 connectDB()
+
+app.use('/api/user',userRoute);
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
