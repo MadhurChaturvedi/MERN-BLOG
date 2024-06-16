@@ -6,4 +6,5 @@
 6. create user model = 1:12:39 - 1:18:29;
 7: create test API routes = 1:18:32 - 1:25:30;
 8: create signp API route = 1:25:40 - 1:42:49;
-9: create add a middleware and function handle errors = 1:42:55 - 1:49:20 
+9: create add a middleware and function handle errors = 1:42:55 - 1:49:20; 
+10: create signup page UI = 1:50:00 - 2:04:04;
